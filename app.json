@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "quiz",
+    "name": "AgriQuiz",
     "slug": "quiz",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,16 +13,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rahul50666.quiz"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "934cdc0d-8aac-4145-bc34-ed1c94ef4e62"
+      }
     }
   }
 }
